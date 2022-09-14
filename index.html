@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subneteo</title>
+</head>
+<body>
+    <h1>Calculadora de Subneteo</h1>
+
+    <form>
+
+        <label>Ingresa la IP</label>
+
+        <input type="text" name="ip1" id="ip1">
+        <input type="text" name="ip2" id="ip2">
+        <input type="text" name="ip3" id="ip3">
+        <input type="text" name="ip4" id="ip4">
+        <input type="text" name="ip4" id="subred">
+
+        <br><br>
+
+        <button onclick="subneteo();">Calcular</button>
+
+        <p>Datos</p>
+        <span class="label" id="IP: "></span>
+        <span class="value" id="ip_completa"></span>
+
+        <span class="label" id="Mascara: "></span>
+        <span class="value" id="mask"></span>
+
+        <span class="label" id="Ip binario: "></span>
+        <span class="value" id="ip_bin"></span>
+
+    
+
+
+    </form>
+
+    <script type="text/javascript" src="subneteo_java.js"></script>
+
+
+    
+</body>
+</html>
